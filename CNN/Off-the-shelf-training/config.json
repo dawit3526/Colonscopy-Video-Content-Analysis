@@ -1,0 +1,18 @@
+
+
+{
+	"model"           : "Vgg-16",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "F:/off-shelf-cnn/Train",
+	"features_path"   : "F:/off-shelf-cnn/features.h5",
+	"labels_path"     : "F:/off-shelf-cnn/labels.h5",
+	"results"         : "F:/off-shelf-cnn/results.txt",
+	"classifier_path" : "F:/off-shelf-cnn/classifier/cpickle",
+
+	"test_size"       : 0.30,
+	"seed"            :9,
+	"num_classes"     : 4
+}
+
